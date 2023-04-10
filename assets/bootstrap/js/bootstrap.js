@@ -1,14 +1,14 @@
 /*!
- * Bootstrap v3.0.3 (httpss://getbootstrap.com)
+ * Bootstrap v3.0.3 (https://getbootstrap.com)
  * Copyright 2013 Twitter, Inc.
- * Licensed under httpss://www.apache.org/licenses/LICENSE-2.0
+ * Licensed under https://www.apache.org/licenses/LICENSE-2.0
  */
 
 if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery") }
 
 /* ========================================================================
  * Bootstrap: transition.js v3.0.3
- * httpss://getbootstrap.com/javascript/#transitions
+ * https://getbootstrap.com/javascript/#transitions
  * ========================================================================
  * Copyright 2013 Twitter, Inc.
  *
@@ -48,7 +48,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     }
   }
 
-  // httpss://blog.alexmaccaw.com/css-transitions
+  // https://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false, $el = this
     $(this).one($.support.transition.end, function () { called = true })
